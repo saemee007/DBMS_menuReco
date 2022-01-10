@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 from tkinter import *
 import tkinter.ttk
 import pandas as pd
@@ -256,7 +253,7 @@ def homebutton_show(window, catkey, frame_image_obj, back_img, reset_img):
     conn.close()    
 
 
-    ## Making hombuttons
+    ## Making homebuttons
 def homebutton(window, middle_frame, image_obj, frame_image_obj, back_img, reset_img): 
     middle_titlelabel = Label(middle_frame, text="Choose category you want to eat", bg='white', fg='darkorange',
                            font=("Candara", 15, 'bold'), anchor=CENTER)
