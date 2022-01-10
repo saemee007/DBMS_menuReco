@@ -3,7 +3,7 @@ import tkinter.ttk
 import pandas as pd
 import matplotlib.pyplot as plt
 import pandas as pd
-import pymysql
+# import pymysql
 import mysql.connector
 import PIL
 from PIL import ImageTk, Image
@@ -33,7 +33,7 @@ def db_connect():
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    # passwd="wjdtkfkd12!@",
+    # passwd=PW,
     passwd = PW,
     database="eatmate")
     return mydb
